@@ -18,7 +18,7 @@ function getInstallerConfig () {
     authors: 'Flora Network',
     version: process.env.FLORA_INSTALLER_VERSION,
     noMsi: true,
-    iconUrl: 'https://raw.githubusercontent.com/Flora-Network/flora-blockchain/master/electron-react/src/assets/img/goji.ico',
+    iconUrl: 'https://raw.githubusercontent.com/Flora-Network/flora-blockchain/master/electron-react/src/assets/img/flora.ico',
     outputDirectory: path.join(outPath, 'windows-installer'),
     certificateFile: 'win_code_sign_cert.p12',
     certificatePassword: process.env.WIN_CODE_SIGN_PASS,
